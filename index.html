@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios2</title>
+</head>
+<body>
+    <h1>Encuesta de Satisfaccion</h1>
+    <form action="#" method="post">
+    <label for="nombre">Nombre Completo:</label>
+    <input type="text"id="nombre" required> <br><br>
+
+
+    <label for="correo">Correo Electronico:</label>
+    <input type="email"id="correo" required> <br><br>
+
+
+    <label for="edad">Edad:</label>
+    <input type="number"id="edad" required> <br><br>
+
+    
+
+
+    <label for="frecuencia">¿Con que frecuencia utilizas nuestros servicios?</label> <br>
+    <input type="radio" id="diario" name="frecuencia" value="diario">
+    <label for="diario">Diario </label> <br>
+    <input type="radio"id="semanal" name="frecuencia" value="semanal">
+    <label for="semanal">Semanal</label><br>
+    <input type="radio" id="mensual" name="frecuencia" value="mensual">
+    <label for="mensual">mensual</label> <br><br>
+<br>
+<br>
+    <label for="satisfacciom">Nivel de satisfaccion con el servicio: </label> <br>
+    <select name="satisfaccion" id="satisfacciom">
+    <option value="excelente">Excelente </option>
+    <option value="buena"> Buena</option>
+    <option value="regular">Regular </option>
+    <option value="malo"> Malo</option> <br><br> 
+
+
+<label for="servicios"> Servicios </label>
+ <input type="checkbox" id="soporte" name="servicios" value="soporte tecnico"> <br>
+ <label for="consultoria">Consultoria</label>
+ <input type="checkbox" id="consultoria" name="servicios" value="soporte tecnico"><br>
+ <label for="capacitacion">Capacitacion</label>
+ <input type="checkbox" id="capacitacion" name="servicios" value="soporte tecnico"> <br>
+
+ </select> <br><br>
+
+ <label for="sugerencias">Sugerencias para mejorar nuestros servicios:</label><br>
+ <textarea name="sugerencias" id="sugerencias" cols="30" rows="4" ></textarea>
+ <input type="submit" value="Enviar encuesta">
+</form>
+
+</body>
+</html>
